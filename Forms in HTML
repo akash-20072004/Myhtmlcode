@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<hr lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+  <form action="/action">
+    <!--Action shows what happens when the form is submitted or where the data is to be sent-->
+    <div>
+      <label for="Username">Username</label>
+      <input type="text" placeholder="Enter Username" id="Username">
+        
+      
+    </div>
+    <div>
+      <label for="Password">Password</label>
+      <input type="Password" placeholder="enter password" id="Password">
+    </div>
+    <div>
+      <label for="Age">Age</label>
+      <input type="number" placeholder="enter age" id="Age">
+    </div>
+   
+  </form>
+
+  
+  </body>
+</html>
